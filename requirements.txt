@@ -1,0 +1,37 @@
+# Core dependencies - let pip resolve versions automatically
+numpy
+pandas
+Pillow
+
+# ML/CV dependencies for Apple Silicon
+tensorflow-macos>=2.10.0
+opencv-python
+deepface
+
+# Web framework dependencies
+fastapi
+uvicorn[standard]
+streamlit
+
+# Authentication & Security
+bcrypt
+python-jose[cryptography]
+pydantic>=2.0.0,<3.0.0
+
+# File handling
+python-multipart
+
+# QR Code handling
+qrcode[pil]
+pyzbar
+
+# Utilities
+pytz
+plotly
+
+# Optional components (may fail on some systems - ignore if they do)
+# streamlit-webrtc
+# streamlit-camera-input-live
+--upgrade typing-extensions
+tensorflow==2.13.0 
+deepface==0.0.75
